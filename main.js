@@ -29,3 +29,9 @@ Math.min(0, 1, 2, 10, 11, 100) && Math.max(-100, -90, -1, -0.9, 0);
 Math.max(0, 1, 2, 10, 11, 100) && Math.min(-100, -90, -1, -0.9, 0);
 Math.min(0, 1, 2, 10, 11, 100) || Math.min(-100, -90, -1, -0.9, 0);
 !Math.min(0, 1, 2, 10, 11, 100) || !Math.max(-100, -90, -1, -0.9, 0);
+
+// Number Generator 
+
+let generator = Math.floor(Math.random() * 150 ) +20;
+
+console.log(generator)
